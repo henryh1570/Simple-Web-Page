@@ -1,0 +1,22 @@
+{
+  "name": "a1",
+  "version": "1.0.0",
+  "description": "CS499 Cloud Computing &amp; Big Data - A1",
+  "main": "App.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/henryh1570/Simple-Web-Page.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/henryh1570/Simple-Web-Page/issues"
+  },
+  "homepage": "https://github.com/henryh1570/Simple-Web-Page#readme",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
+}
