@@ -19,5 +19,9 @@ app.get('/home', function (req, res) {
     res.sendFile(path.join(__dirname, 'resources', 'home.html'));
 })
 
+app.get('*', function(req, res) {
+    res.redirect('../home')
+});
+
 console.log('JS is listening');
 app.listen(8080);
